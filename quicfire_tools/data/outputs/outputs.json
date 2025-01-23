@@ -13,6 +13,48 @@
     "description": "Energy released to the atmosphere that generates buoyant plumes",
     "units": "kW"
   },
+  "fire-avg_en_to_atmos": {
+    "file_format": "gridded",
+    "dimensions": [
+      "z",
+      "y",
+      "x"
+    ],
+    "grid": "en2atmos",
+    "output_times": "fire",
+    "delimiter": "-",
+    "extension": ".bin",
+    "description": "Time averaged energy released to the atmosphere that generates buoyant plumes",
+    "units": "kW/s"
+  },
+  "fire-avg_en_to_fuels": {
+    "file_format": "gridded",
+    "dimensions": [
+      "z",
+      "y",
+      "x"
+    ],
+    "grid":  "",
+    "output_times": "fire",
+    "delimiter": "-",
+    "extension": ".bin",
+    "description": "Average energy deposited to the fuels averaged over output period",
+    "units": "kW/s"
+  },
+  "fire-max_en_to_fuels": {
+    "file_format": "gridded",
+    "dimensions": [
+      "z",
+      "y",
+      "x"
+    ],
+    "grid":  "",
+    "output_times": "fire",
+    "delimiter": "-",
+    "extension": ".bin",
+    "description": "Maximum energy that was transported and deposited into fuels over a timestep for the entire simulation",
+    "units": "kW"
+  },
   "fire-reaction_rate": {
     "file_format": "compressed",
     "dimensions": [
