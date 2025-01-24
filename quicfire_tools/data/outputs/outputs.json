@@ -34,7 +34,7 @@
       "y",
       "x"
     ],
-    "grid":  "",
+    "grid":  "fire",
     "output_times": "fire",
     "delimiter": "-",
     "extension": ".bin",
@@ -48,7 +48,7 @@
       "y",
       "x"
     ],
-    "grid":  "",
+    "grid":  "fire",
     "output_times": "fire",
     "delimiter": "-",
     "extension": ".bin",
